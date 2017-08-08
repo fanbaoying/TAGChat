@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B35DBE1E6EB24B00F0F2EE /* YourTestChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B35DBD1E6EB24B00F0F2EE /* YourTestChatViewController.m */; };
+		45B35DC11E6EB6C900F0F2EE /* chatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B35DC01E6EB6C900F0F2EE /* chatViewController.m */; };
+		45B35DC31E6F975900F0F2EE /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B35DC21E6F975900F0F2EE /* head@2x.png */; };
+		45B35DC61E6FD72B00F0F2EE /* Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B35DC51E6FD72B00F0F2EE /* Nav.m */; };
+		45B35DC81E6FDAE900F0F2EE /* backfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B35DC71E6FDAE900F0F2EE /* backfinal.png */; };
+		45B35DCA1E6FDAF000F0F2EE /* friendlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B35DC91E6FDAF000F0F2EE /* friendlist.png */; };
+		45B35DCF1E6FDC7000F0F2EE /* FriendTableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B35DCC1E6FDC7000F0F2EE /* FriendTableTableViewCell.m */; };
+		45B35DD01E6FDC7000F0F2EE /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B35DCE1E6FDC7000F0F2EE /* FriendTableViewController.m */; };
 		45D86DF61E6EAA04001DFDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D86DF51E6EAA04001DFDDB /* main.m */; };
 		45D86DF91E6EAA04001DFDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D86DF81E6EAA04001DFDDB /* AppDelegate.m */; };
 		45D86DFC1E6EAA04001DFDDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D86DFB1E6EAA04001DFDDB /* ViewController.m */; };
@@ -15,6 +23,7 @@
 		45D86E041E6EAA04001DFDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D86E021E6EAA04001DFDDB /* LaunchScreen.storyboard */; };
 		45D86E0F1E6EAA04001DFDDB /* TAGChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D86E0E1E6EAA04001DFDDB /* TAGChatTests.m */; };
 		45D86E1A1E6EAA04001DFDDB /* TAGChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D86E191E6EAA04001DFDDB /* TAGChatUITests.m */; };
+		7C775BE19BE6984DE52A0778 /* libPods-TAGChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B80FBAFD3CAC0FCB7EFA937 /* libPods-TAGChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B80FBAFD3CAC0FCB7EFA937 /* libPods-TAGChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TAGChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3631D46A030AD23916CFAFDA /* Pods-TAGChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TAGChat/Pods-TAGChat.release.xcconfig"; sourceTree = "<group>"; };
+		45B35DBC1E6EB24B00F0F2EE /* YourTestChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourTestChatViewController.h; sourceTree = "<group>"; };
+		45B35DBD1E6EB24B00F0F2EE /* YourTestChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourTestChatViewController.m; sourceTree = "<group>"; };
+		45B35DBF1E6EB6C900F0F2EE /* chatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatViewController.h; sourceTree = "<group>"; };
+		45B35DC01E6EB6C900F0F2EE /* chatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatViewController.m; sourceTree = "<group>"; };
+		45B35DC21E6F975900F0F2EE /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@2x.png"; sourceTree = "<group>"; };
+		45B35DC41E6FD72B00F0F2EE /* Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav.h; sourceTree = "<group>"; };
+		45B35DC51E6FD72B00F0F2EE /* Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav.m; sourceTree = "<group>"; };
+		45B35DC71E6FDAE900F0F2EE /* backfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backfinal.png; sourceTree = "<group>"; };
+		45B35DC91E6FDAF000F0F2EE /* friendlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friendlist.png; sourceTree = "<group>"; };
+		45B35DCB1E6FDC7000F0F2EE /* FriendTableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableTableViewCell.h; sourceTree = "<group>"; };
+		45B35DCC1E6FDC7000F0F2EE /* FriendTableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableTableViewCell.m; sourceTree = "<group>"; };
+		45B35DCD1E6FDC7000F0F2EE /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewController.h; sourceTree = "<group>"; };
+		45B35DCE1E6FDC7000F0F2EE /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewController.m; sourceTree = "<group>"; };
 		45D86DF11E6EAA04001DFDDB /* TAGChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAGChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D86DF51E6EAA04001DFDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45D86DF71E6EAA04001DFDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,7 @@
 		45D86E151E6EAA04001DFDDB /* TAGChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAGChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D86E191E6EAA04001DFDDB /* TAGChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAGChatUITests.m; sourceTree = "<group>"; };
 		45D86E1B1E6EAA04001DFDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F441389C55B9EF6BD710E0E4 /* Pods-TAGChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TAGChat/Pods-TAGChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C775BE19BE6984DE52A0778 /* libPods-TAGChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +111,8 @@
 				45D86E0D1E6EAA04001DFDDB /* TAGChatTests */,
 				45D86E181E6EAA04001DFDDB /* TAGChatUITests */,
 				45D86DF21E6EAA04001DFDDB /* Products */,
+				E554A74346C944009F06989A /* Pods */,
+				DCE971C65484BC36D2F283FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +131,21 @@
 			children = (
 				45D86DF71E6EAA04001DFDDB /* AppDelegate.h */,
 				45D86DF81E6EAA04001DFDDB /* AppDelegate.m */,
+				45B35DC41E6FD72B00F0F2EE /* Nav.h */,
+				45B35DC51E6FD72B00F0F2EE /* Nav.m */,
 				45D86DFA1E6EAA04001DFDDB /* ViewController.h */,
 				45D86DFB1E6EAA04001DFDDB /* ViewController.m */,
+				45B35DBC1E6EB24B00F0F2EE /* YourTestChatViewController.h */,
+				45B35DBD1E6EB24B00F0F2EE /* YourTestChatViewController.m */,
+				45B35DBF1E6EB6C900F0F2EE /* chatViewController.h */,
+				45B35DC01E6EB6C900F0F2EE /* chatViewController.m */,
+				45B35DCD1E6FDC7000F0F2EE /* FriendTableViewController.h */,
+				45B35DCE1E6FDC7000F0F2EE /* FriendTableViewController.m */,
+				45B35DCB1E6FDC7000F0F2EE /* FriendTableTableViewCell.h */,
+				45B35DCC1E6FDC7000F0F2EE /* FriendTableTableViewCell.m */,
+				45B35DC71E6FDAE900F0F2EE /* backfinal.png */,
+				45B35DC21E6F975900F0F2EE /* head@2x.png */,
+				45B35DC91E6FDAF000F0F2EE /* friendlist.png */,
 				45D86DFD1E6EAA04001DFDDB /* Main.storyboard */,
 				45D86E001E6EAA04001DFDDB /* Assets.xcassets */,
 				45D86E021E6EAA04001DFDDB /* LaunchScreen.storyboard */,
@@ -140,6 +181,23 @@
 			path = TAGChatUITests;
 			sourceTree = "<group>";
 		};
+		DCE971C65484BC36D2F283FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B80FBAFD3CAC0FCB7EFA937 /* libPods-TAGChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E554A74346C944009F06989A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F441389C55B9EF6BD710E0E4 /* Pods-TAGChat.debug.xcconfig */,
+				3631D46A030AD23916CFAFDA /* Pods-TAGChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45D86E1E1E6EAA04001DFDDB /* Build configuration list for PBXNativeTarget "TAGChat" */;
 			buildPhases = (
+				E8FE5A1679829E7A1910D5AC /* [CP] Check Pods Manifest.lock */,
 				45D86DED1E6EAA04001DFDDB /* Sources */,
 				45D86DEE1E6EAA04001DFDDB /* Frameworks */,
 				45D86DEF1E6EAA04001DFDDB /* Resources */,
+				5AB1DAF9B2AE6C47E9065014 /* [CP] Embed Pods Frameworks */,
+				F30479EF6A3ED1BB53226AB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +268,7 @@
 				TargetAttributes = {
 					45D86DF01E6EAA04001DFDDB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KYKA84G3A2;
 						ProvisioningStyle = Automatic;
 					};
 					45D86E091E6EAA04001DFDDB = {
@@ -247,7 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45D86E041E6EAA04001DFDDB /* LaunchScreen.storyboard in Resources */,
+				45B35DCA1E6FDAF000F0F2EE /* friendlist.png in Resources */,
 				45D86E011E6EAA04001DFDDB /* Assets.xcassets in Resources */,
+				45B35DC81E6FDAE900F0F2EE /* backfinal.png in Resources */,
+				45B35DC31E6F975900F0F2EE /* head@2x.png in Resources */,
 				45D86DFF1E6EAA04001DFDDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +333,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AB1DAF9B2AE6C47E9065014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGChat/Pods-TAGChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FE5A1679829E7A1910D5AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F30479EF6A3ED1BB53226AB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGChat/Pods-TAGChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45D86DED1E6EAA04001DFDDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				45D86DFC1E6EAA04001DFDDB /* ViewController.m in Sources */,
+				45B35DCF1E6FDC7000F0F2EE /* FriendTableTableViewCell.m in Sources */,
+				45B35DBE1E6EB24B00F0F2EE /* YourTestChatViewController.m in Sources */,
+				45B35DC11E6EB6C900F0F2EE /* chatViewController.m in Sources */,
+				45B35DC61E6FD72B00F0F2EE /* Nav.m in Sources */,
+				45B35DD01E6FDC7000F0F2EE /* FriendTableViewController.m in Sources */,
 				45D86DF91E6EAA04001DFDDB /* AppDelegate.m in Sources */,
 				45D86DF61E6EAA04001DFDDB /* main.m in Sources */,
 			);
@@ -420,8 +538,10 @@
 		};
 		45D86E1F1E6EAA04001DFDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F441389C55B9EF6BD710E0E4 /* Pods-TAGChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KYKA84G3A2;
 				INFOPLIST_FILE = TAGChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tag.dou.TAGChat;
@@ -431,8 +551,10 @@
 		};
 		45D86E201E6EAA04001DFDDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3631D46A030AD23916CFAFDA /* Pods-TAGChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KYKA84G3A2;
 				INFOPLIST_FILE = TAGChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tag.dou.TAGChat;
@@ -505,6 +627,7 @@
 				45D86E201E6EAA04001DFDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45D86E211E6EAA04001DFDDB /* Build configuration list for PBXNativeTarget "TAGChatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +636,7 @@
 				45D86E231E6EAA04001DFDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45D86E241E6EAA04001DFDDB /* Build configuration list for PBXNativeTarget "TAGChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +645,7 @@
 				45D86E261E6EAA04001DFDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
